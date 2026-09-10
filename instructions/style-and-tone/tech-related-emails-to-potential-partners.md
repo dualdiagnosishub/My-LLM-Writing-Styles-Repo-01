@@ -372,5 +372,74 @@ Before sending, check these five things:
 > [!TIP]
 > The strongest way to make a message feel human is not deliberate imperfection. It is real context, a clear opinion, an honest uncertainty, and a request that respects the other person’s time.
 
-Sources
-[1] pasted_text_1789050882.txt https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/23353470/3a197db0-a1db-4040-aaa6-f8117d10644a/pasted_text_1789050882.txt?AWSAccessKeyId=ASIA2F3EMEYET36DU332&Signature=TAXND4bP6FgaMIHTEWp0VIdcedU%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIBDeHhi0mS%2BFNUVAU8%2BuHpMt99cnM7ybHsAmAP0FZ312AiA8MBbfoGR3UBNL3X4UhnH9H9bMuVOsm7iI6HUSv%2FyP6Cr8BAiH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAEaDDY5OTc1MzMwOTcwNSIM7AY3bd6JwcHsCS20KtAEYVWo619XkR%2FAR0iNGUNuo8Mur5kfGIp4bi8eGw%2BMzxWSJ1jHdaQwbcJQffldz8rBZiRD5rJR%2Feeyx3pUS1No4TurCm8RMUMHj6ORzOYAS%2BWXHnqQp5QV2TNFV94qqviWUQic%2FAEAIIMKVg8LyeeV9wK2b6j1XINSQG4zv1lcjAI1rly42BZY62jZ6MuzNMOnotIiX37I%2B%2FDdc0NxOhwoZ%2FyGTSeI%2Fn4nSfV7qs2q5%2B8wOc17sDCAxlhu%2F9G8emxgily%2FAuKB38R1fZaonGgDQl55zjakj4kcbICJN9O4rp5FJ57y%2B7i20CDR3jDGP3qFtV8FFr%2Bcm55g%2Bg4NuE2zxJ5dV8ikZqcV2%2FiSxboPPEedyfFcdYWK9bnmFD4WAsHZuIRmebJQ9PB3TmPx6y7egobmhN%2BL1c68QAqE7fpZGK4Vi5PA7ZkpOcfrB6mbCGsIfsKMyzd%2Fs5AZbKJOTagTVHJf6oDouU3TZEJV6jJE4huL%2F7vmzPimaQOuGRjoE%2FtQ%2BaIWNCMzBXEAvRVKDPSG3ZFkXQoZJpA24MCKyX%2By1Lmi%2BSzBn27u%2Bbb%2BZx6m0j%2ByHTdslf4uc36aeU%2FwVfmdCQGgeH5qpBWKWQwDSv%2FxBZSvV1q4kADAgrppyIngd8TeYKnjq90OE3BPAI2b%2BRjTd4KXGzU6DVbfn3kcFRFaxIpGGxD8s3XBBbWIr8ImjsASZVWb3FBKhNUvaH3Rx7seEf6YEYGe0774vYjQZDvO7yXhvU8S2lnYPcRDK%2FOyA2c6D50TQYHGK63TuLjgkm767zC1%2BIrVBjqZAaP1VWYdg6p5cs4geli3kN7652ifQ%2BVoz5EXs7WRj%2Ffld2yEQbJkTs%2BsifHGK0W99De3uzinlj1iehw9jmXh%2Fw039mhhUoSPVoYeRYbmc7QIwIst6cGyAP1k3EUTxb8XcUMOLMxkJCoXGUPZl80ZHIsD5Zgu5OflWhbsH1FynudhIbMG4w3sEdyZd5GNMTzd5aKGcI%2FEL1B87w%3D%3D&Expires=1789053448
+—-
+
+Here are ready-to-use style-and-tone instruction blocks for each content type, built from the technical-writing rules and style-profile dimensions covered in the earlier research .
+
+## Content (general)
+
+```
+Write for a technically capable reader who may not know this specific topic.
+Lead with the core idea, then support it with concrete evidence.
+Use active voice when the actor matters; use passive voice only when the actor is irrelevant.
+One idea per sentence. Split any sentence over 30 words.
+Define acronyms and jargon on first use, then use them consistently.
+Avoid hype, vague claims, filler phrases, and unsupported assertions.
+Avoid generic AI transitions ("Additionally," "Furthermore," "Moreover") and casual em/en dashes.
+Do not force ordinary prose into bullet lists; use lists only when comparing discrete items or steps.
+Avoid boilerplate summary paragraphs at the end.
+For every claim, be prepared to answer: what it is, why it matters, how to verify it.
+```
+
+## Articles
+
+```
+Open with a direct, specific claim or finding — no throat-clearing intro.
+Write for an informed general reader; explain specialized terms briefly and naturally, not as a glossary aside.
+Use a mix of short and medium sentences; vary rhythm so the piece doesn't read mechanically.
+Support claims with evidence, examples, or named sources rather than sweeping generalizations.
+Organize with meaningful subheadings, not numbered generic ones.
+Maintain a consistent narrative voice throughout — do not shift tone between sections.
+Avoid clichés, stale metaphors, and phrases like "in today's world" or "in the ever-evolving landscape."
+End on a concrete point or implication, not a restated summary.
+```
+
+## Guides / how-tos
+
+```
+Write for someone doing this task for the first time, with no assumed prior context.
+Structure as: what the reader will accomplish, prerequisites, then sequential steps.
+Use numbered steps for anything sequential; use bullets only for non-sequential options or notes.
+Give one instruction per step; if a step needs an explanation, put the "why" on the same line or immediately after.
+Use copy-pasteable examples (commands, code, templates) wherever a step is technical.
+Call out common failure points or gotchas explicitly, right where they'd occur.
+Use consistent terminology for the same object or action throughout — never rename something mid-guide.
+Avoid encouragement filler ("Great, now let's..."); keep momentum functional, not conversational.
+```
+
+## Emails
+
+```
+State the purpose or ask in the first sentence — the reader should know why they're reading before line two.
+Match formality to context: professional-warm by default, more formal only for senior/external stakeholders.
+Keep paragraphs to 2-3 sentences; use short lists only for multiple discrete asks, dates, or options.
+Be explicit about the requested action, owner, and deadline if any exist.
+Avoid hedging language ("just wanted to," "sorry to bother") unless softening genuinely serves the relationship.
+Close with a clear next step or question, not a generic pleasantry-only sign-off.
+Match the reader's prior tone in a thread rather than resetting to a default register each time.
+```
+
+## WhatsApp messages
+
+```
+Write short, plain, conversational sentences — this is speech-adjacent, not prose.
+Skip formal openers/closers; get to the point in the first line.
+Use casual contractions and everyday phrasing; avoid corporate or written-report tone entirely.
+Break multi-part messages into separate short lines rather than one dense paragraph.
+Use emojis sparingly and only if they match the existing relationship tone — never by default.
+If asking something, make the ask the last or most prominent line so it's not missed.
+Avoid over-explaining; assume shared context with the recipient unless the topic is new to them.
+```
+
+Each block can be pasted directly above your content brief in a prompt template — combine with a short "audience / goal / key facts" section specific to the piece you're generating for best results.
+
